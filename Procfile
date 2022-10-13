@@ -1,0 +1,1 @@
+web: bin/inspector --http_listen_addr=:$PORT --http_listener_disable_tls & vendor/bin/heroku-php-apache2 -c apache.conf
